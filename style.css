@@ -23,3 +23,22 @@ body {
 .container {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.navigationpanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-clr-one);
+    padding: 5vh 2vw;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--bg-clr);
+    font-size: 1.2rem;
+}
+
+.recipename {
+    border: none;
+    padding: 1.5vh 1vw;
+}
