@@ -26,19 +26,45 @@ body {
 
 .navigationpanel {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--dark-clr-one);
+    background-color: var(--light-clr-two);
     padding: 5vh 2vw;
+    box-shadow: 5px 4px 8px rgb(83, 82, 82);
 }
 
 .title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: var(--bg-clr);
-    font-size: 1.2rem;
+    color: black;
+    font-size: 2.5rem;
 }
 
-.recipename {
+.recipename, .search {
     border: none;
     padding: 1.5vh 1vw;
 }
+
+.recipename {
+    width: 80%;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.search {
+    border-radius: 15px;
+}
+
+.searchbar {
+    background-color: var(--bg-clr);
+    border: 3px solid rgba(37, 37, 37, 0.842);
+    margin-top: 3vh;
+    width: 90vw;
+    border-radius: 15px;
+}
+
+.description {
+    margin-top: 3vh;
+}
+
