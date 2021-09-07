@@ -12,7 +12,12 @@
         <nav class="navigationpanel">
             <p class="title">Find Your Meal</p>
             <div class="searchbar">
-                <input type="text" class="recipename" placeholder="Enter Meal name">
+                <select name="recipe-names" id="recipe-names" class="recipename">
+                    <option value="singlerandommeal">Search for single random meal</option>
+                    <option value="singlemeal">Search meal by name</option>
+                    <option value="filtermeal" selected>Filter meal by main ingredient</option>
+                    <option value="listcategories">List all meal categories</option>
+                </select>
                 <button class="search">Search</button>
             </div>
             <p class="description">Your Search Results</p>
